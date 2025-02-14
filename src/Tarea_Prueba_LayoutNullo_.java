@@ -101,22 +101,22 @@ class VentanaPrincipal extends JFrame {
 		caja02.setFont(new Font("Arial", Font.BOLD, 9));
 		add(caja02);
 
-		/*
+		
 		//Añadiendo el icono 
 		Icon icon = new ImageIcon("C:\\Users\\Marcelo\\Documents\\000SEXTO\\ICONOS\\info.png");
 		JButton button7 = new JButton(icon);
 		button7.setBounds(140,305,23,23);
 		add(button7);
-		*/
+		
 		JCheckBox caja3 = new JCheckBox ("include archive link ");
 		caja3.setBounds(16,330 , 120, 15);
 		caja3.setFont(new Font("Arial", Font.BOLD, 9));
 		add(caja3);
-		/*
+		
 		JButton button8 = new JButton(icon);
 		button8.setBounds(130,325,23,23);
 		add(button8);
-*/
+
 		JCheckBox caja4 = new JCheckBox ("include Monkey Rewards link");
 		caja4.setBounds(16,350 , 160, 15);
 		caja4.setFont(new Font("Arial", Font.BOLD, 9));
